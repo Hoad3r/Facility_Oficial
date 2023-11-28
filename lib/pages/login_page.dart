@@ -1,121 +1,145 @@
-import 'package:firebase_core/firebase_core.dart';
+import 'package:facility/components/buttons.dart';
+import 'package:facility/components/google_icon.dart';
+import 'package:facility/components/textfields.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class LoginPage extends StatelessWidget {
+  LoginPage({super.key});
 
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
+  // text controllers
+  final usernameController = TextEditingController();
+  final passwordController = TextEditingController();
 
-class _HomePageState extends State<HomePage> {
-
-  //Firebase app
-  Future<FirebaseApp> _initializeFirebase() async {
-    FirebaseApp firebaseApp = await Firebase.initializeApp();
-    return firebaseApp;
-  }
-  
+  // sign user method
+  void signUserIn() {}
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FutureBuilder(
-        future: _initializeFirebase(),
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return const Center(
-              child: Text("Error initializing Firebase"),
-            );
-          } else if (snapshot.connectionState == ConnectionState.done) {
-            return LoginScreen();
-          }
-          return const Center(
-            child: CircularProgressIndicator(),
-          );
-        },
-      )
-    );
-  }
-}
+      backgroundColor: Colors.grey[300],
+      body: SafeArea(
+        child: Center(
+          child: Column(
+            children: [
+              const SizedBox(height: 50),
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+              // Logo
+              const Icon(
+                Icons.lock,
+                size: 100,
+              ),
 
-  @override
-  State<LoginScreen> createState() => _LoginScreenState();
-}
+              const SizedBox(height: 50),
 
-class _LoginScreenState extends State<LoginScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.all(16.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children:  [
-          const Text("Facility",
-          style:TextStyle(
-            color: Colors.black, 
-            fontSize: 28.0,
-            fontWeight:  FontWeight.bold,
-          ),
-          ),
-          const Text("Login", 
-          style:TextStyle(
-            color: Colors.black, 
-            fontSize: 44.0,
-            fontWeight:  FontWeight.bold,
-          ),
-          ),
-          const SizedBox(
-            height: 44.0,
-            ),
-          const TextField( 
-            keyboardType: TextInputType.emailAddress,
-            decoration: const InputDecoration(
-              hintText: "Email",
-              prefixIcon: Icon(Icons.mail,color: Colors.black),
-            ),
-          ),
-          const SizedBox(
-            height: 26.0,
-          ),
-          const TextField(
-            obscureText: true,
-            decoration: InputDecoration(
-              hintText: "Password",
-              prefixIcon: Icon(Icons.lock,color: Colors.black),
-            ),
-          ),
-          const SizedBox(
-            height: 12.0,
-          ),
-          const Text("Esqueci minha senha", 
-          style: TextStyle(color: Colors.blue),
-          ),
-          const SizedBox(
-            height: 88.0,
-          ),
-          Container(
-            width: double.infinity,
-            child: RawMaterialButton(
-              fillColor: Color(0xFF0069FE),
-              elevation: 0.0,
-              padding: EdgeInsets.symmetric(vertical: 20.0),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12.0)),
-              onPressed: (){},
-              child: Text("Login",
+              // text
+              Text(
+                'Sign In',
                 style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
+                  color: Colors.grey[700],
+                  fontSize: 16,
+                ),
               ),
+
+              const SizedBox(height: 25),
+
+              // username textfield
+              MyTextField(
+                controller: usernameController,
+                hintText: 'Email',
+                obscureText: false,
               ),
+
+              const SizedBox(height: 10),
+
+              // password textfield
+              MyTextField(
+                controller: passwordController,
+                hintText: 'Password',
+                obscureText: true,
+              ),
+
+              // forgot password
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Text("Esqueceu a senha?",
+                        style: TextStyle(
+                          color: Colors.grey[600],
+                        )),
+                  ],
+                ),
+              ), //forgot password
+
+              const SizedBox(height: 25),
+
+              // sign in button
+              MyButton(onTap: signUserIn),
+
+              const SizedBox(height: 50),
+
+              // or continue with
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Divider(
+                        thickness: 0.5,
+                        color: Colors.grey[400],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      child: Text(
+                        'Ou continue com',
+                        style: TextStyle(
+                          color: Colors.grey[700],
+                        ),
+                      ),
+                    ),
+                    Divider(
+                      thickness: 0.5,
+                      color: Colors.grey[400],
+                    ),
+                  ],
+                ),
+              ),
+
+              // google button
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SquareTile(imagePath: 'assets/images/google.png'),
+                  SizedBox(width: 10),
+                ],
+              ),
+
+              const SizedBox(height: 50),
+
+              //not a member? register now
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Not a member?',
+                    style: TextStyle(color: Colors.grey[700]),
+                  ),
+                  const SizedBox(width: 4),
+                  const Text(
+                    'Register now',
+                    style: TextStyle(
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               )
-              ),
-        ],
-      ),);
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

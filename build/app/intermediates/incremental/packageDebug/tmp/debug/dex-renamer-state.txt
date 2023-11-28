@@ -1,4 +1,4 @@
-#Tue Nov 28 12:07:39 BRT 2023
+#Tue Nov 28 15:18:56 BRT 2023
 base.0=C\:\\Users\\bielf\\Facility-Oficial\\facility\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 base.1=C\:\\Users\\bielf\\Facility-Oficial\\facility\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 path.0=classes.dex
