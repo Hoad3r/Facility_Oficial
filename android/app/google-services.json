@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1010280648312",
+    "firebase_url": "https://facility-a06fb-default-rtdb.firebaseio.com",
+    "project_id": "facility-a06fb",
+    "storage_bucket": "facility-a06fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010280648312:android:56379b9756e3c06044e78d",
+        "android_client_info": {
+          "package_name": "br.com.facility.facility"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7qLGTlz8WIyZJrUIRH5_SiFvOrz6tAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010280648312:android:d2490d72f6519f2844e78d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7qLGTlz8WIyZJrUIRH5_SiFvOrz6tAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

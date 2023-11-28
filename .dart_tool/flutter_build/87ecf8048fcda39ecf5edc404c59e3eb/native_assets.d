@@ -1,0 +1,1 @@
+ C:\\Users\\bielf\\OneDrive\\Área\ de\ Trabalho\\Facility-Oficial\\facility\\.dart_tool\\flutter_build\\87ecf8048fcda39ecf5edc404c59e3eb\\native_assets.yaml: 
