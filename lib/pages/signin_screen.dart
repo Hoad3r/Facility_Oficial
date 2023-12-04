@@ -24,8 +24,9 @@ class _SignInScreenState extends State<SignInScreen> {
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-          hexStringToColor("0C8CE9"),
           hexStringToColor("0D6AAD"),
+          hexStringToColor("0D6AAD"),
+          hexStringToColor("126099"),
           hexStringToColor("0F9AFF")
         ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
         child: SingleChildScrollView(
@@ -38,18 +39,18 @@ class _SignInScreenState extends State<SignInScreen> {
                 const SizedBox(
                   height: 30,
                 ),
-                reusableTextField("Enter UserName", Icons.person_outline, false,
+                reusableTextField("Email", Icons.person_outline, false,
                     _emailTextController),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter Password", Icons.lock_outline, true,
+                reusableTextField("Senha", Icons.lock_outline, true,
                     _passwordTextController),
                 const SizedBox(
                   height: 5,
                 ),
                 forgetPassword(context),
-                firebaseUIButton(context, "Sign In", () {
+                firebaseUIButton(context, "Entrar", () {
                   FirebaseAuth.instance
                       .signInWithEmailAndPassword(
                           email: _emailTextController.text,

@@ -23,7 +23,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: const Text(
-          "Sign Up",
+          "Cadastre-se",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),
@@ -32,8 +32,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
           height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
               gradient: LinearGradient(colors: [
-          hexStringToColor("0C8CE9"),
           hexStringToColor("0D6AAD"),
+          hexStringToColor("0D6AAD"),
+          hexStringToColor("126099"),
           hexStringToColor("0F9AFF")
           ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
           child: SingleChildScrollView(
@@ -44,28 +45,28 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter UserName", Icons.person_outline, false,
+                reusableTextField("Nome", Icons.person_outline, false,
                     _userNameTextController),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter Email Id", Icons.person_outline, false,
+                reusableTextField("Email", Icons.person_outline, false,
                     _emailTextController),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Enter Password", Icons.lock_outlined, true,
+                reusableTextField("Senha", Icons.lock_outlined, true,
                     _passwordTextController),
                 const SizedBox(
                   height: 20,
                 ),
-                firebaseUIButton(context, "Sign Up", () {
+                firebaseUIButton(context, "Cadastrar", () {
                   FirebaseAuth.instance
                       .createUserWithEmailAndPassword(
                           email: _emailTextController.text,
                           password: _passwordTextController.text)
                       .then((value) {
-                    print("Created New Account");
+                    print("Nova conta criada!");
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => HomeScreen()));
                   }).onError((error, stackTrace) {
