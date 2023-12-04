@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:2:5-32:19
-MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:2:5-32:19
+MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\bielf\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
@@ -32,16 +32,16 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\bielf\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-MERGED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\facility\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\bielf\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\bielf\.gradle\caches\transforms-3\d49f6a819eed17522baea9050ed92a5b\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
@@ -75,33 +75,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bi
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bielf\.gradle\caches\transforms-3\aac1a50d844b366ae389c4ad8c4c6bdc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bielf\.gradle\caches\transforms-3\e1d8c2bc91e7b6cf427c9a8e7753caca\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bielf\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\facility\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\facility\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\bielf\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
@@ -168,28 +168,28 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bielf\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bielf\.gradle\caches\transforms-3\e1d8c2bc91e7b6cf427c9a8e7753caca\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bielf\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bielf\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\bielf\.gradle\caches\transforms-3\29042813c6d55c2f5a4e8db45cd80da8\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\bielf\.gradle\caches\transforms-3\29042813c6d55c2f5a4e8db45cd80da8\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\bielf\Facility-Oficial\facility\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\bielf\Facility-Oficial\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\bielf\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
@@ -203,27 +203,27 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\bielf\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\bielf\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\facility\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_auth] C:\Users\bielf\Facility-Oficial\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\facility\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_core] C:\Users\bielf\Facility-Oficial\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\facility\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+ADDED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\bielf\.gradle\caches\transforms-3\29042813c6d55c2f5a4e8db45cd80da8\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\bielf\.gradle\caches\transforms-3\29042813c6d55c2f5a4e8db45cd80da8\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\facility\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+		ADDED from [:connectivity_plus] C:\Users\bielf\Facility-Oficial\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\bielf\.gradle\caches\transforms-3\8f321ae7b2fefec4ba0b738a6fb8396c\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
