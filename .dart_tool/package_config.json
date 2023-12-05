@@ -140,6 +140,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "google_nav_bar",
+      "rootUri": "file:///C:/Users/bielf/AppData/Local/Pub/Cache/hosted/pub.dev/google_nav_bar-5.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///C:/Users/bielf/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
@@ -272,7 +278,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-12-04T15:43:39.855898Z",
+  "generated": "2023-12-05T16:24:09.012406Z",
   "generator": "pub",
   "generatorVersion": "3.2.2"
 }
