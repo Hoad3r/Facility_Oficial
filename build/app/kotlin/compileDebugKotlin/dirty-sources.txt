@@ -1,1 +1,0 @@
-C:\Users\bielf\Facility-Oficial\facility\android\app\src\main\kotlin\br\com\facility\facility\MainActivity.kt

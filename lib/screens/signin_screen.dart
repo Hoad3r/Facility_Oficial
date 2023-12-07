@@ -5,6 +5,7 @@ import 'package:facility/screens/reset_password.dart';
 import 'package:facility/screens/signup_screen.dart';
 import 'package:facility/utils/color_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -39,28 +40,30 @@ class _SignInScreenState extends State<SignInScreen> {
                 const SizedBox(
                   height: 30,
                 ),
-                reusableTextField("Email", Icons.person_outline, false,
-                    _emailTextController),
+                reusableTextField(
+                    "Email", Icons.person_outline, false, _emailTextController),
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Senha", Icons.lock_outline, true,
-                    _passwordTextController),
+                reusableTextField(
+                    "Senha", Icons.lock_outline, true, _passwordTextController),
                 const SizedBox(
                   height: 5,
                 ),
                 forgetPassword(context),
-                firebaseUIButton(context, "Entrar", () {
-                  FirebaseAuth.instance
-                      .signInWithEmailAndPassword(
-                          email: _emailTextController.text,
-                          password: _passwordTextController.text)
-                      .then((value) {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const HomeScreen()));
-                  }).onError((error, stackTrace) {
-                    print("Error ${error.toString()}");
-                  });
+                firebaseUIButton(context, "Entrar", () async {
+                  try {
+                    await FirebaseAuth.instance.signInWithEmailAndPassword(
+                        email: _emailTextController.text,
+                        password: _passwordTextController.text);
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const HomeScreen()));
+                  } catch (error) {
+                    Fluttertoast.showToast(
+                        msg: error.toString(), gravity: ToastGravity.TOP);
+                  }
                 }),
                 signUpOption()
               ],
@@ -102,8 +105,8 @@ class _SignInScreenState extends State<SignInScreen> {
           style: TextStyle(color: Colors.white70),
           textAlign: TextAlign.right,
         ),
-        onPressed: () => Navigator.push(
-            context, MaterialPageRoute(builder: (context) => const ResetPassword())),
+        onPressed: () => Navigator.push(context,
+            MaterialPageRoute(builder: (context) => const ResetPassword())),
       ),
     );
   }

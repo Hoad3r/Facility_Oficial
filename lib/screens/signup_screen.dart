@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:facility/components/reusable_widget.dart';
-import 'package:facility/screens/home_screen.dart';
 import 'package:facility/utils/color_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);
@@ -24,7 +24,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
         elevation: 0,
         title: const Text(
           "Cadastre-se",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+          style: TextStyle(
+              fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ),
       body: Container(
@@ -32,10 +33,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
           height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
               gradient: LinearGradient(colors: [
-          hexStringToColor("0D6AAD"),
-          hexStringToColor("0D6AAD"),
-          hexStringToColor("126099"),
-          hexStringToColor("0F9AFF")
+            hexStringToColor("0D6AAD"),
+            hexStringToColor("0D6AAD"),
+            hexStringToColor("126099"),
+            hexStringToColor("0F9AFF")
           ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
           child: SingleChildScrollView(
               child: Padding(
@@ -50,8 +51,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                reusableTextField("Email", Icons.person_outline, false,
-                    _emailTextController),
+                reusableTextField(
+                    "Email", Icons.person_outline, false, _emailTextController),
                 const SizedBox(
                   height: 20,
                 ),
@@ -60,18 +61,30 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                firebaseUIButton(context, "Cadastrar", () {
-                  FirebaseAuth.instance
-                      .createUserWithEmailAndPassword(
-                          email: _emailTextController.text,
-                          password: _passwordTextController.text)
-                      .then((value) {
+                firebaseUIButton(context, "Cadastrar", () async {
+                  try {
+                    final UserCredential userCredential = await FirebaseAuth
+                        .instance
+                        .createUserWithEmailAndPassword(
+                            email: _emailTextController.text,
+                            password: _passwordTextController.text);
                     print("Nova conta criada!");
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const HomeScreen()));
-                  }).onError((error, stackTrace) {
-                    print("Error ${error.toString()}");
-                  });
+                    await userCredential.user?.sendEmailVerification();
+                    print("E-mail de verificação enviado!");
+                    // Aguarda algum tempo e verifica se o e-mail foi verificado
+                    await Future.delayed(Duration(minutes: 5));
+                    final User? user = FirebaseAuth.instance.currentUser;
+                    await user?.reload();
+                    if (user != null && !user.emailVerified) {
+                      // Se o e-mail não for verificado, exclua o usuário
+                      await user.delete();
+                      print(
+                          "Usuário excluído devido à falta de verificação de e-mail");
+                    }
+                  } catch (error) {
+                    Fluttertoast.showToast(
+                        msg: error.toString(), gravity: ToastGravity.TOP);
+                  }
                 })
               ],
             ),
