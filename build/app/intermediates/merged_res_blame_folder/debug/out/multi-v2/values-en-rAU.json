@@ -4,7 +4,11 @@
             "outputFile": "br.com.facility.facility.app-mergeDebugResources-28:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\detup\\.gradle\\caches\\transforms-3\\66d124bc6cf7d05fe4541f861a6dff19\\transformed\\biometric-1.1.0\\res\\values-en-rAU\\values-en-rAU.xml",
+=======
+                    "source": "C:\\Users\\detup\\.gradle\\caches\\transforms-3\\d08c73bfb05384f2e52578171dbd141e\\transformed\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

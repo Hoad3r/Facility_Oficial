@@ -21,6 +21,7 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\detup\\.gradle\\caches\\transforms-3\\66d124bc6cf7d05fe4541f861a6dff19\\transformed\\biometric-1.1.0\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
@@ -35,6 +36,22 @@
                         "startOffsets": "5752,5970,6379,6500,6633,6772,6914,7047,7185,7289,7441,7591",
                         "endColumns": "111,90,120,132,138,141,132,137,103,151,149,120",
                         "endOffsets": "5859,6056,6495,6628,6767,6909,7042,7180,7284,7436,7586,7707"
+=======
+                    "source": "C:\\Users\\detup\\.gradle\\caches\\transforms-3\\d08c73bfb05384f2e52578171dbd141e\\transformed\\core-1.6.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2699",
+                        "endColumns": "100",
+                        "endOffsets": "2795"
+>>>>>>> Stashed changes
                     }
                 },
                 {
@@ -64,6 +81,7 @@
                         "endOffsets": "156,259,369,474"
                     },
                     "to": {
+<<<<<<< Updated upstream
                         "startLines": "55,57,58,59",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "5864,6061,6164,6274",
@@ -103,6 +121,13 @@
                         "startOffsets": "2808,2904,3006,3105,3204,3310,3414,7794",
                         "endColumns": "95,101,98,98,105,103,117,100",
                         "endOffsets": "2899,3001,3100,3199,3305,3409,3527,7890"
+=======
+                        "startLines": "20,21,22,23",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2275,2381,2484,2594",
+                        "endColumns": "105,102,109,104",
+                        "endOffsets": "2376,2479,2589,2694"
+>>>>>>> Stashed changes
                     }
                 }
             ]

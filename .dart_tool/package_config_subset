@@ -1,7 +1,12 @@
 _flutterfire_internals
 2.18
+<<<<<<< Updated upstream
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.15/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.15/lib/
+=======
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.14/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.14/lib/
+>>>>>>> Stashed changes
 args
 2.19
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.2/
@@ -52,6 +57,7 @@ file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.0/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.0/lib/
 firebase_auth
 2.18
+<<<<<<< Updated upstream
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-4.15.1/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-4.15.1/lib/
 firebase_auth_platform_interface
@@ -66,20 +72,42 @@ firebase_core
 2.18
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-2.24.1/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-2.24.1/lib/
+=======
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-4.15.0/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-4.15.0/lib/
+firebase_auth_platform_interface
+2.18
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_platform_interface-7.0.6/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_platform_interface-7.0.6/lib/
+firebase_auth_web
+2.18
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.8.9/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.8.9/lib/
+firebase_core
+2.18
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-2.24.0/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-2.24.0/lib/
+>>>>>>> Stashed changes
 firebase_core_platform_interface
 2.18
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-5.0.0/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-5.0.0/lib/
 firebase_core_web
 2.18
+<<<<<<< Updated upstream
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.10.0/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.10.0/lib/
+=======
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.9.0/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_web-2.9.0/lib/
+>>>>>>> Stashed changes
 flutter_lints
 3.0
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.1/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.1/lib/
 flutter_plugin_android_lifecycle
 2.19
+<<<<<<< Updated upstream
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/lib/
 fluttertoast
@@ -90,20 +118,28 @@ google_nav_bar
 2.12
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/google_nav_bar-5.0.6/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/google_nav_bar-5.0.6/lib/
+=======
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3/lib/
+>>>>>>> Stashed changes
 http_parser
 2.12
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2/lib/
+<<<<<<< Updated upstream
 intl
 2.12
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1/lib/
+=======
+>>>>>>> Stashed changes
 js
 2.19
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7/lib/
 lints
 3.0
+<<<<<<< Updated upstream
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0/lib/
 local_auth
@@ -126,6 +162,10 @@ local_auth_windows
 3.0
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/local_auth_windows-1.0.10/
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/local_auth_windows-1.0.10/lib/
+=======
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1/
+file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1/lib/
+>>>>>>> Stashed changes
 matcher
 2.18
 file:///C:/Users/detup/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16/

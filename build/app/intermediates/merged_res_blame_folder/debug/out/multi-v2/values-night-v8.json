@@ -4,6 +4,7 @@
             "outputFile": "br.com.facility.facility.app-mergeDebugResources-28:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\detup\\.gradle\\caches\\transforms-3\\54d742fd25d8045523bbd52b9ef66eff\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -21,6 +22,8 @@
                     }
                 },
                 {
+=======
+>>>>>>> Stashed changes
                     "source": "C:\\Users\\detup\\Documents\\GitHub\\Facility_Oficial\\Facility_Oficial\\Facility_Oficial\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",

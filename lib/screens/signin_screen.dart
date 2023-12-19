@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:facility/components/reusable_widget.dart';
 import 'package:facility/screens/home_screen.dart';
@@ -51,6 +53,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   height: 5,
                 ),
                 forgetPassword(context),
+<<<<<<< Updated upstream:lib/screens/signin_screen.dart
                 firebaseUIButton(context, "Entrar", () async {
                   try {
                     await FirebaseAuth.instance.signInWithEmailAndPassword(
@@ -64,6 +67,19 @@ class _SignInScreenState extends State<SignInScreen> {
                     Fluttertoast.showToast(
                         msg: error.toString(), gravity: ToastGravity.TOP);
                   }
+=======
+                firebaseUIButton(context, "Entrar", () {
+                  FirebaseAuth.instance
+                      .signInWithEmailAndPassword(
+                          email: _emailTextController.text,
+                          password: _passwordTextController.text)
+                      .then((value) {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const HomeScreen()));
+                  }).onError((error, stackTrace) {
+                    print("Error ${error.toString()}");
+                  });
+>>>>>>> Stashed changes:lib/pages/signin_screen.dart
                 }),
                 signUpOption()
               ],
@@ -105,8 +121,13 @@ class _SignInScreenState extends State<SignInScreen> {
           style: TextStyle(color: Colors.white70),
           textAlign: TextAlign.right,
         ),
+<<<<<<< Updated upstream:lib/screens/signin_screen.dart
         onPressed: () => Navigator.push(context,
             MaterialPageRoute(builder: (context) => const ResetPassword())),
+=======
+        onPressed: () => Navigator.push(
+            context, MaterialPageRoute(builder: (context) => const ResetPassword())),
+>>>>>>> Stashed changes:lib/pages/signin_screen.dart
       ),
     );
   }
